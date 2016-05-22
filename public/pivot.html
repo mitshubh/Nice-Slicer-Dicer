@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pivot Demo</title>
+    <!-- external libs from cdnjs -->
+    <script type="text/javascript" src="../lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery-ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="../lib/lodash/lodash.js"></script>
+
+    <!-- PivotTable.js libs from ../dist -->
+    <link rel="stylesheet" type="text/css" href="../lib/pivottable/dist/pivot.css">
+    <script type="text/javascript" src="../lib/pivottable/dist/pivot.js"></script>
+    <style>
+        body {font-family: Verdana;}
+    </style>
+
+</head>
+<body>
+<script type="text/javascript">
+    // This example is the most basic usage of pivotUI()
+//    var id = $.urlParam('_id');
+//    var url = 'http://localhost:3000/datasets/5741275d158be4080efd2b01/data';
+//    console.log('id: ' + id);
+    $(function(){
+        var dateFormat =       $.pivotUtilities.derivers.dateFormat;
+        var sortAs =           $.pivotUtilities.sortAs;
+        var tpl =              $.pivotUtilities.aggregatorTemplates;
+
+        function GetURLParameter(sParam)
+        {
+            var sPageURL = window.location.search.substring(1);
+            var sURLVariables = sPageURL.split('&');
+            for (var i = 0; i < sURLVariables.length; i++)
+            {
+                var sParameterName = sURLVariables[i].split('=');
+                if (sParameterName[0] == sParam)
+                {
+                    return sParameterName[1];
+                }
+            }
+        };
+
+        var id = GetURLParameter('_id');
+        console.log('id: ' + id);
+        var url = 'http://localhost:3000/datasets/' + id +'/data';
+
+        $.getJSON(url, function(data) {
+
+            var dims = Object.keys(data[0]);
+            var dimsData = data[0];
+            var strDims = [];
+            _.forEach(dimsData, function(val, key) {
+                if (_.isNaN(parseInt(val))) {
+                    strDims.push(key);
+//                    dims.splice(key);
+                }
+            });
+            console.log(strDims + dims);
+            $("#output").pivotUI(data, {
+                cols: dims,
+                rows: strDims,
+//                aggregatorName: "intSum",
+                vals: ["live_listings"],
+                rendererName: "Heatmap",
+
+                /*aggregators: {
+                    "Mean":
+                            function() { return tpl.average()(["Mean"])},
+                    "Max":
+                            function() { return tpl.max()(["Max"]) },
+                    "Min":
+                            function() { return tpl.min()(["Min"]) },
+                    "Total":
+                            function() { return tpl.sum()(["Total"]) }
+                },*/
+                renderers: $.extend(
+                        $.pivotUtilities.renderers,
+                        $.pivotUtilities.c3_renderers,
+                        $.pivotUtilities.export_renderers
+                )
+            });
+        });
+    });
+</script>
+
+<div id="output" style="margin: 30px;"></div>
+
+</body>
+</html>

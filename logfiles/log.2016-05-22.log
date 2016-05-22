@@ -1,0 +1,308 @@
+Sun May 22 2016 04:35:02 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\adasd 
+Sun May 22 2016 04:35:18 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\asdmasdj 
+Sun May 22 2016 04:37:53 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\adkasdiasjhd 
+Sun May 22 2016 04:38:34 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\aasbdjas 
+Sun May 22 2016 05:31:36 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "test".
+Use mongoose.model(name, schema) date=Sun May 22 2016 05:31:36 GMT+0530 (India Standard Time), pid=11528, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=72912896, heapTotal=66056192, heapUsed=34718040, loadavg=[0, 0, 0], uptime=42092.0311186
+MissingSchemaError: Schema hasn't been registered for model "test".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 05:35:29 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "test".
+Use mongoose.model(name, schema) date=Sun May 22 2016 05:35:29 GMT+0530 (India Standard Time), pid=11312, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=57483264, heapTotal=33550336, heapUsed=27408296, loadavg=[0, 0, 0], uptime=42324.8634358
+MissingSchemaError: Schema hasn't been registered for model "test".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 05:37:05 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\Final1 
+Sun May 22 2016 05:38:47 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "test".
+Use mongoose.model(name, schema) date=Sun May 22 2016 05:38:47 GMT+0530 (India Standard Time), pid=13600, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=80801792, heapTotal=56619008, heapUsed=27785544, loadavg=[0, 0, 0], uptime=42522.6777502
+MissingSchemaError: Schema hasn't been registered for model "test".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 05:39:54 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\Final2 
+Sun May 22 2016 06:01:26 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\Final3 
+Sun May 22 2016 06:33:18 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "Test1".
+Use mongoose.model(name, schema) date=Sun May 22 2016 06:33:17 GMT+0530 (India Standard Time), pid=10256, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=68460544, heapTotal=44036096, heapUsed=26968328, loadavg=[0, 0, 0], uptime=45793.2158142
+MissingSchemaError: Schema hasn't been registered for model "Test1".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 06:35:42 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\Final4 
+Sun May 22 2016 07:48:07 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "Final4".
+Use mongoose.model(name, schema) date=Sun May 22 2016 07:48:07 GMT+0530 (India Standard Time), pid=10880, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=99643392, heapTotal=84930560, heapUsed=61904848, loadavg=[0, 0, 0], uptime=49817.0369637
+MissingSchemaError: Schema hasn't been registered for model "Final4".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 07:49:08 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\Final5 
+Sun May 22 2016 08:17:27 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\alsifhjojopok; 
+Sun May 22 2016 08:46:43 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "asdmasdj".
+Use mongoose.model(name, schema) date=Sun May 22 2016 08:46:43 GMT+0530 (India Standard Time), pid=10548, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=60022784, heapTotal=35647488, heapUsed=26143576, loadavg=[0, 0, 0], uptime=53333.5840986
+MissingSchemaError: Schema hasn't been registered for model "asdmasdj".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 08:48:20 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "D1--Huge".
+Use mongoose.model(name, schema) date=Sun May 22 2016 08:48:20 GMT+0530 (India Standard Time), pid=11832, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=58490880, heapTotal=34598912, heapUsed=27748728, loadavg=[0, 0, 0], uptime=53430.6186487
+MissingSchemaError: Schema hasn't been registered for model "D1--Huge".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 08:57:15 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "Final1".
+Use mongoose.model(name, schema) date=Sun May 22 2016 08:57:15 GMT+0530 (India Standard Time), pid=4512, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=57188352, heapTotal=33550336, heapUsed=26097144, loadavg=[0, 0, 0], uptime=53965.0792181
+MissingSchemaError: Schema hasn't been registered for model "Final1".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 08:59:35 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "Test1".
+Use mongoose.model(name, schema) date=Sun May 22 2016 08:59:35 GMT+0530 (India Standard Time), pid=12768, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=112697344, heapTotal=97513472, heapUsed=28787256, loadavg=[0, 0, 0], uptime=54105.2002326
+MissingSchemaError: Schema hasn't been registered for model "Test1".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 09:32:09 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "D1--Huge".
+Use mongoose.model(name, schema) date=Sun May 22 2016 09:32:09 GMT+0530 (India Standard Time), pid=11532, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=85565440, heapTotal=75493376, heapUsed=31976256, loadavg=[0, 0, 0], uptime=56059.164993
+MissingSchemaError: Schema hasn't been registered for model "D1--Huge".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 09:48:41 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\CPD 
+Sun May 22 2016 10:22:37 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "CPD".
+Use mongoose.model(name, schema) date=Sun May 22 2016 10:22:37 GMT+0530 (India Standard Time), pid=9944, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=81776640, heapTotal=75493376, heapUsed=45020856, loadavg=[0, 0, 0], uptime=59087.136183
+MissingSchemaError: Schema hasn't been registered for model "CPD".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 10:23:48 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\CPD-1 
+Sun May 22 2016 10:33:51 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\CPD--2 
+Sun May 22 2016 10:37:57 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "CPD".
+Use mongoose.model(name, schema) date=Sun May 22 2016 10:37:57 GMT+0530 (India Standard Time), pid=9432, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=67010560, heapTotal=41938944, heapUsed=27832896, loadavg=[0, 0, 0], uptime=60007.4348211
+MissingSchemaError: Schema hasn't been registered for model "CPD".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 10:39:58 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "CPD--2".
+Use mongoose.model(name, schema) date=Sun May 22 2016 10:39:58 GMT+0530 (India Standard Time), pid=4148, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=98447360, heapTotal=84930560, heapUsed=61106112, loadavg=[0, 0, 0], uptime=60127.964715
+MissingSchemaError: Schema hasn't been registered for model "CPD--2".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 10:42:17 GMT+0530 (India Standard Time) - error: uncaughtException: Schema hasn't been registered for model "CPD--2".
+Use mongoose.model(name, schema) date=Sun May 22 2016 10:42:17 GMT+0530 (India Standard Time), pid=5972, uid=null, gid=null, cwd=C:\Hackathons\greytHR, execPath=C:\Program Files\nodejs\node.exe, version=v6.2.0, argv=[C:\Program Files\nodejs\node.exe, C:\Hackathons\greytHR\server.js], rss=57139200, heapTotal=33550336, heapUsed=26962600, loadavg=[0, 0, 0], uptime=60266.8216572
+MissingSchemaError: Schema hasn't been registered for model "CPD--2".
+,Use mongoose.model(name, schema)
+,    at Mongoose.model (C:\Hackathons\greytHR\node_modules\mongoose\lib\index.js:323:13)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\app\controllers\dataset.server.controller.js:64:38)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at Promise.resolve (C:\Hackathons\greytHR\node_modules\mongoose\lib\promise.js:114:23)
+,    at Promise.<anonymous> (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:177:8)
+,    at emitOne (events.js:96:13)
+,    at Promise.emit (events.js:188:7)
+,    at Promise.emit (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:84:38)
+,    at Promise.fulfill (C:\Hackathons\greytHR\node_modules\mpromise\lib\promise.js:97:20)
+,    at C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1406:13
+,    at model.Document.init (C:\Hackathons\greytHR\node_modules\mongoose\lib\document.js:254:11)
+,    at completeOne (C:\Hackathons\greytHR\node_modules\mongoose\lib\query.js:1404:10)
+
+Sun May 22 2016 10:44:28 GMT+0530 (India Standard Time) - info: Processing Data file- uploads\CPD--3 
